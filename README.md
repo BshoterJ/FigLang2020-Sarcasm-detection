@@ -1,12 +1,12 @@
 # Sarcasm-detection
 
-Sarcasm detection is the second shared task of [FigLang2020](https://sites.google.com/view/figlang2020/shared-tasks)
+Sarcasm detection is the second shared task of [FigLang2020](https://sites.google.com/view/figlang2020/shared-tasks) ,co-located with ACL 2020
 
 For more information about the shared task and to participate visit [CodaLab site](https://competitions.codalab.org/competitions/22247#learn_the_details-overview)
 
 ## Dataset
 
-**Training data** can be download in [Github](https://github.com/EducationalTestingService/sarcasm)
+**Training data** can be downloaded in [Github](https://github.com/EducationalTestingService/sarcasm)
 
 - ***label*** : `SARCASM` or `NOT_SARCASM`
 - ***response*** :  the sarcastic response, whether a sarcastic Tweet or a Reddit post
