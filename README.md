@@ -38,8 +38,12 @@ bert(cased-large-wwm)+gru | 84.479% |  response
 bert(cased-large-wwm)+gru |  |  context+response 
 
 ## RUN
-- Download bert pretain model to `./bert-large-cased-wwm` and rename them(`config.json`;`pytorch_model.bin`;`vocab.txt`)
-- Prepare the training and dev data(4:1; 5 fold)
+1、Download bert pretain model to `./bert-large-cased-wwm` and rename them(`config.json`;`pytorch_model.bin`;`vocab.txt`)
+
+2、Prepare the training and dev data(4:1; 5 fold)
+
 `python ./data/twitter/preprocess_twitter.py `
-- Train the model
+
+3、Train the model
+
 `sh run_bert sh`
