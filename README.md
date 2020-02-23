@@ -34,6 +34,6 @@ The response tweet, "Did Kelly..." is a reply to its immediate context "didn't t
 
 Model| F1-score | input
 :-: | :-: | :-: |
-bert(cased-large-wwm)+gru | 84.447% |  response
+bert(cased-large-wwm)+gru | 84.479% |  response
 bert(cased-large-wwm)+gru |  |  context+response 
 
