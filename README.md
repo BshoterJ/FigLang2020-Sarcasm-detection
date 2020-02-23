@@ -30,7 +30,7 @@ The response tweet, "Did Kelly..." is a reply to its immediate context "didn't t
 - pandas
 - jsonlines
 
-## Experiments
+## Experiments on Twitter
 
 Model| F1-score | input
 :-: | :-: | :-: |
@@ -42,7 +42,7 @@ bert(cased-large-wwm)+gru |  |  context+response
 
 `config.json`;`pytorch_model.bin`;`vocab.txt`
 
-2、Prepare the training and dev data(4:1; 5 fold)
+2、Prepare the training and dev data(4:1 and 5 fold)
 
 `python ./data/twitter/preprocess_twitter.py `
 
