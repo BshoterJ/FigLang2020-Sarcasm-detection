@@ -35,7 +35,7 @@ The response tweet, "Did Kelly..." is a reply to its immediate context "didn't t
 Model| F1-score | input
 :-: | :-: | :-: |
 bert(cased-large-wwm)+gru | 84.479% |  response
-bert(cased-large-wwm)+gru |  |  context+response 
+bert(cased-large-wwm)+gru | 84.295% |  context+response 
 
 ## RUN
 1、Download bert pretain model to `./bert-large-cased-wwm` and rename them as:
