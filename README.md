@@ -44,8 +44,8 @@ bert(cased-large-wwm)+gru |  |  context+response
 
 2、Prepare the training and dev data(4:1 and 5 fold)
 
-`python ./data/twitter/preprocess_twitter.py `
+	python ./data/twitter/preprocess_twitter.py 
 
 3、Train the model
 
-`sh run_bert sh`
+	sh run_bert sh
