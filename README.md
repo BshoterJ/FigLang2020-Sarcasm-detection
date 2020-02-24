@@ -31,11 +31,12 @@ The response tweet, "Did Kelly..." is a reply to its immediate context "didn't t
 - jsonlines
 
 ## Experiments on Twitter
-
+** Variance of 5 fold is about 2-3% **
 Model| F1-score | input
 :-: | :-: | :-: |
-bert(cased-large-wwm)+gru | 84.479% |  response
-bert(cased-large-wwm)+gru | 84.295% |  context+response 
+bert(uncased-large-wwm)+gru | 82.500% | full context+response
+bert(cased-large-wwm)+gru | 82.996% | full context+response 
+
 
 ## RUN
 1、Download bert pretain model to `./bert-large-cased-wwm` and rename them as:
