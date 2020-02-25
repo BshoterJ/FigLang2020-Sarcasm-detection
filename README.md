@@ -30,12 +30,14 @@ The response tweet, "Did Kelly..." is a reply to its immediate context "didn't t
 - pandas
 - jsonlines
 
-## Experiments on Twitter
+## Experiments on Twitter Dataset
+
 ** Variance of 5 fold is about 2-3% **
+
 Model| F1-score | input
 :-: | :-: | :-: |
-bert(uncased-large-wwm)+gru | 82.500% | full context+response
-bert(cased-large-wwm)+gru | 82.996% | full context+response 
+bert(uncased-large-wwm)+gru | 82.200% | full context+response
+bert(cased-large-wwm)+gru | 82.553% | full context+response 
 
 
 ## RUN
