@@ -39,7 +39,7 @@ Model| dev/test F1-score | input
 bert(uncased-large-wwm) | 81.243% | response
 bert(uncased-large-wwm) | 82.200% | context+response
 bert(cased-large-wwm) | 82.553%/69.200% | context+response 
-bert(cased-large) | 83.147% / **72.619%** | context+response
+bert(cased-large) | 83.147%/**72.619%** | context+response
 
 
 ## RUN
