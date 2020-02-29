@@ -42,6 +42,7 @@ bert(cased-large-wwm) | 82.553%/69.200% | context+response
 bert(cased-large) | 83.147%/**72.619%** | context+response
 
 **Reddit**
+
 Model| dev/test F1-score | input
 :-: | :-: | :-: |
 bert(cased-large)+gru | 71.352%/**63.042%** | response
