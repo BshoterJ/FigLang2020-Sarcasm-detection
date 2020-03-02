@@ -31,8 +31,9 @@ The response tweet, "Did Kelly..." is a reply to its immediate context "didn't t
 - jsonlines
 
 ## Experiments
-### Baseline
-**Twitter**
+### Twitter
+
+**Baseline**
 
 Model| dev/test F1-score | input
 :-: | :-: | :-: |
@@ -40,6 +41,9 @@ bert(uncased-large-wwm) | 81.243% | response
 bert(uncased-large-wwm) | 82.200% | context+response
 bert(cased-large-wwm) | 82.553%/69.200% | context+response 
 bert(cased-large) | 83.147%/**72.619%** | context+response
+
+**Advanced**
+bert(last 3 layer) | 83.355%/**73.189%** | context+response
 
 **Reddit**
 
