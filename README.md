@@ -45,7 +45,7 @@ bert(cased-large) | 83.147%/**72.619%** | context+response
 **Advanced**
 
 Model| dev/test F1-score 
-:-: | :-: | :-: 
+:-: | :-: |
 bert(last 3 layer) | 83.355%/**73.189%** 
 
 **Reddit**
